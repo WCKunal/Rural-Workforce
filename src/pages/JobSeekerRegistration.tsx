@@ -121,7 +121,7 @@ function JobSeekerRegistration() {
           </div>
           <h1 className="text-2xl font-bold text-slate-900">Profile Submitted!</h1>
           <p className="text-slate-500 mt-3 leading-relaxed">
-            Hello {form.firstName}, thank you for registering at Rural Workforce Connect.
+            Hello {form.firstName}, thank you for registering at Rozgaar Hai.
             You will receive a confirmation email shortly. Our team will review your profile and contact you with matching job opportunities.
           </p>
           <div className="mt-6 bg-white rounded-xl p-5 border border-slate-200 text-left">

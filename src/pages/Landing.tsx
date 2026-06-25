@@ -5,7 +5,7 @@ import { useState } from 'react';
 
 function Landing() {
   const testimonials = [
-    { name: 'Rajesh Kumar', role: 'Machine Operator, Pune', quote: 'Rural Workforce Connect helped me find a stable job near my hometown. The process was simple and the team guided me at every step.', rating: 5, avatar: 'RK' },
+    { name: 'Rajesh Kumar', role: 'Machine Operator, Pune', quote: 'Rozgaar Hai helped me find a stable job near my hometown. The process was simple and the team guided me at every step.', rating: 5, avatar: 'RK' },
     { name: 'Priya Sharma', role: 'Staff Nurse, Hyderabad', quote: 'I was struggling to find opportunities from my village. This platform matched me with a hospital that valued my skills.', rating: 5, avatar: 'PS' },
     { name: 'Sanjay Mehta', role: 'HR Manager, Bharat Manufacturing', quote: 'We needed reliable workers for our factory. The pre-screened candidates saved us weeks of recruitment effort.', rating: 5, avatar: 'SM' },
     { name: 'Anita Deshmukh', role: 'Director, Greenfield Agro', quote: 'Finding skilled agricultural workers was always a challenge. This platform connected us with qualified rural candidates.', rating: 4, avatar: 'AD' },
@@ -173,7 +173,7 @@ function Landing() {
       <section className="py-20 bg-white dark:bg-slate-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
-            <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 dark:text-white">Why Choose Rural Workforce Connect?</h2>
+            <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 dark:text-white">Why Choose Rozgaar Hai?</h2>
             <p className="mt-3 text-slate-500 dark:text-slate-400 text-lg">Benefits designed for both sides of the hiring equation</p>
           </div>
           <div className="grid md:grid-cols-2 gap-10">
@@ -261,7 +261,7 @@ function Landing() {
         <div className="absolute inset-0 opacity-10" style={{ backgroundImage: `radial-gradient(circle at 30% 50%, white 1px, transparent 1px)`, backgroundSize: '24px 24px' }} />
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight">Ready to Get Started?</h2>
-          <p className="mt-5 text-lg sm:text-xl text-blue-100 max-w-2xl mx-auto">Join thousands of job seekers and employers already using Rural Workforce Connect.</p>
+          <p className="mt-5 text-lg sm:text-xl text-blue-100 max-w-2xl mx-auto">Join thousands of job seekers and employers already using Rozgaar Hai.</p>
           <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/register/job-seeker" className="group inline-flex items-center justify-center gap-2.5 px-8 py-4 bg-white hover:bg-slate-50 text-blue-600 font-semibold rounded-xl shadow-xl transition-all duration-300 hover:-translate-y-0.5 text-base">
               <Users size={20} /> Register as Job Seeker <ArrowRight size={18} className="transition-transform group-hover:translate-x-1" />

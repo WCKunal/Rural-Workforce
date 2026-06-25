@@ -33,11 +33,11 @@ function AdminLogin() {
             <Briefcase size={28} className="text-white" />
           </div>
           <h1 className="text-2xl font-bold text-white">Admin Login</h1>
-          <p className="text-slate-400 mt-1">Rural Workforce Connect</p>
+          <p className="text-slate-400 mt-1">Rozgaar Hai</p>
         </div>
         <Card className="shadow-2xl">
           <form onSubmit={handleSubmit} className="space-y-4">
-            <Input label="Email Address" type="email" required value={email} onChange={e => { setEmail(e.target.value); setError(''); }} placeholder="admin@ruralworkforce.com" />
+            <Input label="Email Address" type="email" required value={email} onChange={e => { setEmail(e.target.value); setError(''); }} placeholder="admin@rozgaarhai.com" />
             <Input label="Password" type="password" required value={password} onChange={e => { setPassword(e.target.value); setError(''); }} placeholder="Enter password" />
             {error && (
               <div className="flex items-center gap-2 text-sm text-red-600 bg-red-50 px-3 py-2 rounded-lg">
@@ -50,7 +50,7 @@ function AdminLogin() {
             </Button>
           </form>
           <div className="mt-4 text-center">
-            <p className="text-xs text-slate-400">Demo: admin@ruralworkforce.com / admin123</p>
+            <p className="text-xs text-slate-400">Demo: admin@rozgaarhai.com / admin123</p>
           </div>
         </Card>
       </div>

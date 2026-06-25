@@ -29,8 +29,7 @@ function PublicLayout({ children }: { children: ReactNode }) {
                 <Briefcase size={20} className="text-white" />
               </div>
               <div className="flex flex-col">
-                <span className="text-lg font-bold text-slate-900 dark:text-white leading-tight tracking-tight">Rural Workforce</span>
-                <span className="text-[10px] font-semibold text-blue-600 dark:text-blue-400 uppercase tracking-widest -mt-0.5">Connect</span>
+                <span className="text-lg font-bold text-slate-900 dark:text-white leading-tight tracking-tight">Rozgaar Hai</span>
               </div>
             </Link>
 
@@ -124,7 +123,7 @@ function PublicLayout({ children }: { children: ReactNode }) {
             <div className="md:col-span-1">
               <Link to="/" className="flex items-center gap-2.5 mb-4">
                 <div className="w-9 h-9 bg-blue-500 rounded-lg flex items-center justify-center"><Briefcase size={20} className="text-white" /></div>
-                <div className="flex flex-col"><span className="text-lg font-bold text-white leading-tight">Rural Workforce</span><span className="text-[10px] font-semibold text-blue-400 uppercase tracking-widest -mt-0.5">Connect</span></div>
+                <div className="flex flex-col"><span className="text-lg font-bold text-white leading-tight">Rozgaar Hai</span></div>
               </Link>
               <p className="text-sm leading-relaxed">Connecting skilled rural talent with businesses across India.</p>
             </div>
@@ -152,7 +151,7 @@ function PublicLayout({ children }: { children: ReactNode }) {
             </div>
           </div>
           <div className="mt-10 pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-sm">© 2024 Rural Workforce Connect. All rights reserved.</p>
+            <p className="text-sm">© 2024 Rozgaar Hai. All rights reserved.</p>
             <div className="flex items-center gap-4">
               <a href="#" className="text-slate-500 hover:text-white transition-colors text-sm">Twitter</a>
               <a href="#" className="text-slate-500 hover:text-white transition-colors text-sm">LinkedIn</a>

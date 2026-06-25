@@ -45,7 +45,7 @@ function JobSeekerInfo() {
       {/* Benefits */}
       <section className="py-16 bg-slate-50">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-slate-900 text-center mb-12">Why Join Rural Workforce Connect?</h2>
+          <h2 className="text-3xl font-bold text-slate-900 text-center mb-12">Why Join Rozgaar Hai?</h2>
           <div className="grid sm:grid-cols-2 gap-6">
             {[
               { icon: <CheckCircle size={22} className="text-green-600" />, title: '100% Free for Job Seekers', desc: 'No registration fees, no hidden charges. Our service is completely free for candidates.' },
