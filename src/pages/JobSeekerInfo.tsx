@@ -14,7 +14,7 @@ function JobSeekerInfo() {
           <h1 className="text-3xl sm:text-5xl font-extrabold text-white leading-tight">Your Next Career Starts Here</h1>
           <p className="mt-4 text-lg text-blue-100 max-w-2xl mx-auto">Join thousands of skilled workers from rural India who have found meaningful employment through our platform. Free registration, personalized matching, and full support.</p>
           <Link to="/register/job-seeker">
-            <Button size="lg" className="mt-8 bg-white text-blue-600 hover:bg-slate-50 shadow-xl">
+            <Button size="lg" className="mt-8 bg-white text-black hover:bg-slate-50 shadow-xl">
               Register Now — It's Free <ArrowRight size={18} className="ml-1" />
             </Button>
           </Link>
@@ -107,7 +107,7 @@ function JobSeekerInfo() {
           <h2 className="text-3xl font-bold text-white">Ready to Find Your Next Job?</h2>
           <p className="mt-3 text-blue-100">Join 1,200+ candidates already registered on our platform</p>
           <Link to="/register/job-seeker">
-            <Button size="lg" className="mt-6 bg-white text-blue-600 hover:bg-slate-50 shadow-xl">
+            <Button size="lg" className="mt-6 bg-white text-black hover:bg-slate-50 shadow-xl">
               Register Now — Free <ArrowRight size={18} className="ml-1" />
             </Button>
           </Link>

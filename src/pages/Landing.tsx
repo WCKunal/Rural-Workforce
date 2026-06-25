@@ -263,7 +263,7 @@ function Landing() {
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight">Ready to Get Started?</h2>
           <p className="mt-5 text-lg sm:text-xl text-blue-100 max-w-2xl mx-auto">Join thousands of job seekers and employers already using Rozgaar Hai.</p>
           <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
-            <Link to="/register/job-seeker" className="group inline-flex items-center justify-center gap-2.5 px-8 py-4 bg-white hover:bg-slate-50 text-blue-600 font-semibold rounded-xl shadow-xl transition-all duration-300 hover:-translate-y-0.5 text-base">
+            <Link to="/register/job-seeker" className="group inline-flex items-center justify-center gap-2.5 px-8 py-4 bg-white hover:bg-slate-50 text-black font-semibold rounded-xl shadow-xl transition-all duration-300 hover:-translate-y-0.5 text-base">
               <Users size={20} /> Register as Job Seeker <ArrowRight size={18} className="transition-transform group-hover:translate-x-1" />
             </Link>
             <Link to="/register/employer" className="group inline-flex items-center justify-center gap-2.5 px-8 py-4 bg-white/10 hover:bg-white/20 border-2 border-white/30 text-white font-semibold rounded-xl transition-all duration-300 hover:-translate-y-0.5 text-base">

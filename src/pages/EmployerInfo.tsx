@@ -14,7 +14,7 @@ function EmployerInfo() {
           <h1 className="text-3xl sm:text-5xl font-extrabold text-white leading-tight">Hire Pre-Screened Rural Talent</h1>
           <p className="mt-4 text-lg text-teal-100 max-w-2xl mx-auto">Access a dedicated pool of skilled workers from rural and semi-urban India. Post your requirements and let us match you with the right candidates — faster and more affordably.</p>
           <Link to="/register/employer">
-            <Button size="lg" className="mt-8 bg-white text-teal-700 hover:bg-slate-50 shadow-xl">
+            <Button size="lg" className="mt-8 bg-white text-black hover:bg-slate-50 shadow-xl">
               Post a Job Requirement <ArrowRight size={18} className="ml-1" />
             </Button>
           </Link>
@@ -114,7 +114,7 @@ function EmployerInfo() {
           <h2 className="text-3xl font-bold text-white">Ready to Hire the Best Talent?</h2>
           <p className="mt-3 text-teal-100">Post your first job requirement and start receiving matched candidates</p>
           <Link to="/register/employer">
-            <Button size="lg" className="mt-6 bg-white text-teal-700 hover:bg-slate-50 shadow-xl">
+            <Button size="lg" className="mt-6 bg-white text-black hover:bg-slate-50 shadow-xl">
               Post a Job Requirement <ArrowRight size={18} className="ml-1" />
             </Button>
           </Link>

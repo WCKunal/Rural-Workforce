@@ -66,7 +66,7 @@ export default function Dashboard() {
           <p className="text-blue-100 mt-2 max-w-lg">You have <span className="font-semibold text-white">{newThisWeek} new candidates</span> and <span className="font-semibold text-white">{matches.filter(m => m.status === 'Pending').length} pending matches</span> to review today.</p>
           <div className="mt-4 flex flex-wrap gap-3">
             <Link to="/admin/matching">
-              <Button size="sm" className="bg-white text-blue-600 hover:bg-blue-50 gap-1.5 shadow-lg">
+              <Button size="sm" className="bg-white text-black hover:bg-blue-50 gap-1.5 shadow-lg">
                 <Zap size={14} /> Review Matches
               </Button>
             </Link>
